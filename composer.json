@@ -1,0 +1,23 @@
+{
+    "name": "Eval2/evaluation-back-oquiz-Noemielej",
+    "description": "quiz",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Noemielej",
+            "email": "noemielej@yahoo.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "require": {
+        "altorouter/altorouter" : "^1.2",
+        "symfony/var-dumper": "^3.4",
+        "league/plates": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oquiz\\": "app/"
+          }
+    }
+}

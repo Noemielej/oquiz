@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Suez+One');
+/* font-family: 'Miriam Libre', sans-serif;
+font-family: 'Suez One', serif; */
+
+body {
+  padding: 1em 1em;
+  min-width:100%;
+  color: black;
+}
+/* NAV */
+.user{
+  display: list-item;
+  color: #337ab7;
+  font-family: 'Miriam Libre', sans-serif;
+  padding-top: 0.5em;
+  padding-right: 0.4em;
+}
+
+.nav-item:hover {
+  background-color: #337ab7;
+}
+
+.nav-link{
+  color: #337ab7;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+/* MAIN */
+.float-left h1 {
+  font-family: 'Miriam Libre', sans-serif;
+  color: #337ab7;
+}
+
+main h2 {
+  font-family: 'Suez One', serif;
+}
+
+a .card-border {
+  text-decoration: none;
+  color: inherit;
+}
+a :hover .card-title{
+  decoration:none;
+}
+.card-title{
+  font-family: 'Suez One', serif;
+  color: #337ab7;
+}
+main p {
+  font-family: 'Miriam Libre', sans-serif;
+}
+.card-text{
+  font-family: 'Suez One', serif;
+  color: black;
+}
+
+.card-author{
+  color: black;
+}
+
+.row.col.card {
+  border: none;
+}
+
+a .card-border:hover{
+  text-decoration: underline;
+  background-color: #f5f3e8;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer {
+  padding-top: 1em;
+  text-align: center;
+}
